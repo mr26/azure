@@ -2,8 +2,8 @@
 
 ## example on how to authenticate using Azure Managed Identities, in this instance I specifically used a system-assigned managed identity.
 
-## In order to allow the VM from which I ran this code to be able to create resource groups, I had to go to the Azure subscription and 
-## assign the 'Contributor' role to the VM.
+"""In order to allow the VM from which I ran this code to be able to create resource groups, I had to go to the Azure subscription and 
+assign the 'Contributor' role to the VM."""
 
 from msrestazure.azure_active_directory import MSIAuthentication
 from azure.storage.blob import BlobServiceClient
