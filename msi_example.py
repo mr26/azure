@@ -23,3 +23,7 @@ for sub in sub_list:
 resource_client = ResourceManagementClient(credentials, SUBSCRIPTION_ID)
 
 resource_client.resource_groups.create_or_update('api-test-group1', ResourceGroup(location='eastus'))
+
+
+
+
